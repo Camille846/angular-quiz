@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --background: #dddffc;
+    --primary: #ba68c8;
+    --secondary: #9e7df2;
+    --card-background: #eff0fa; 
+    --text-color: #3e3f40;
+    --shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --gradient: linear-gradient(90deg, hsla(249, 89%, 64%, 1) 0%, hsla(314, 74%, 56%, 1) 100%, hsla(208, 89%, 60%, 1) 100%);
+}	
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column; 
+}
