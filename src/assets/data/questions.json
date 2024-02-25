@@ -1,0 +1,144 @@
+{
+    "title": "Are you an introvert or an extrovert?",
+    "questions": [
+        {
+            "id": 1,
+            "question": "When you are at a party, do you:",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Talk to many people, including strangers",
+                    "alias": "E"
+                },
+                {
+                    "id": 2,
+                    "answer": "Talk to a few people you know well",
+                    "alias": "I"
+                },
+                {
+                    "id": 3,
+                    "answer": "Talk to one person you know well",
+                    "alias": "I"
+                },
+                {
+                    "id": 4,
+                    "answer": "Talk to no one",
+                    "alias": "I"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "It’s Friday night—woohoo! What are your weekend plans?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Hitting the town with friends",
+                    "alias": "E"
+                },
+                {
+                    "id": 2,
+                    "answer": "Catching up on Netflix",
+                    "alias": "I"
+                },
+                {
+                    "id": 3,
+                    "answer": "Dinner with a friend",
+                    "alias": "I"
+                },
+                {
+                    "id": 4,
+                    "answer": "I'm not sure yet",
+                    "alias": "I"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "You like it best when people:",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Text. I like not feeling rushed to reply.",
+                    "alias": "I"
+                },
+                {
+                    "id": 2,
+                    "answer": "Call. I like to hear their voice.",
+                    "alias": "E"
+                },
+                {
+                    "id": 3,
+                    "answer": "Email. I like to think before I respond.",
+                    "alias": "I"
+                },
+                {
+                    "id": 4,
+                    "answer": "FaceTime. I like to see their face.",
+                    "alias": "E"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "When you’re feeling down, you:",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Call a friend",
+                    "alias": "E"
+                },
+                {
+                    "id": 2,
+                    "answer": "Spend time alone",
+                    "alias": "I"
+                },
+                {
+                    "id": 3,
+                    "answer": "Text a friend",
+                    "alias": "I"
+                },
+                {
+                    "id": 4,
+                    "answer": "Email a friend",
+                    "alias": "I"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "When you’re at a party, you:",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer": "Are the life of the party",
+                    "alias": "E"
+                },
+                {
+                    "id": 2,
+                    "answer": "Are the person who’s talking to the life of the party",
+                    "alias": "I"
+                },
+                {
+                    "id": 3,
+                    "answer": "Are the person who’s talking to the person who’s talking to the life of the party",
+                    "alias": "I"
+                },
+                {
+                    "id": 4,
+                    "answer": "Are the person who’s talking to the person who’s talking to the person who’s talking to the life of the party",
+                    "alias": "I"
+                }
+            ]
+        }
+    ],
+    "results": {
+        "E": {
+            "title": "Extrovert"       
+        },
+        "I": {
+            "title": "Introvert"
+        }
+    }
+
+}
