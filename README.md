@@ -5,7 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description 
 
-This Angular-based quiz game offers an engaging and interactive experience. Based on your answers, the game shows a detailed profile revealing your introvert or extrovert inclinations, offering valuable insights into your preferences and behaviors.
+This Angular-based quiz game offers an engaging and interactive experience. Based on your answers, the game reveils which character from an animation you are. It was used Steven Universe as a reference.
+
+This app was developed to improve Angular knowledges and to replicate a Buzzfeed kind of quiz. 
 
 
 ## Built with:
