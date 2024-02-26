@@ -5,10 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description 
 
-This Angular-based quiz game offers an engaging and interactive experience. Based on your answers, the game reveils which character from an animation you are. It was used Steven Universe as a reference.
-
-This app was developed to improve Angular knowledges and to replicate a Buzzfeed kind of quiz. 
-
+This Angular-based game reveals which character you embody, inspired by the beloved animated series Steven Universe. Developed to improve Angular skills and replicate the engaging format of Buzzfeed quizzes, it's a captivating way to test your knowledge and discover your animated personality
 
 ## Built with:
 
