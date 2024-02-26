@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 40vw;
+    min-height: 100vh;
+    margin-bottom: 2rem;
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+    font-family: "Abril Fatface", serif;
+}
+
+.startBtn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

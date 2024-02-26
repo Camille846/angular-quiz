@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { QuizComponent } from '../../components/quiz/quiz.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterModule, CommonModule],
+  imports: [QuizComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
