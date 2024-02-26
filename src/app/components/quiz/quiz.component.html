@@ -1,6 +1,6 @@
 <div class="quiz__container">
-    <div class="quiz__logo">
-        <img src="../../../assets/svg/logo.svg" alt="Quiz Icon" />
+    <div class="quiz__logo" *ngIf=!finished>
+        <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/05/garnet-steven-and-peridot-from-steven-universe.jpg" alt="Quiz Icon" />
         <h3>{{title}}</h3>
     </div>
     <div class="quiz__wrapper">
@@ -17,9 +17,12 @@
             </button>
         </div>
         <div *ngIf=finished class="quiz__results">
-            <h1>O seu resultado é:</h1>
+            <h1>You are</h1>
+            <div class="quiz__results-img">
+                <img src={{answerImage}} alt="Quiz Results" />
+            </div>
             <p>{{answerSelected}}</p>
-            <p>{{answerDescription}}</p>
+            <button class="btn-results" (click)="restartQuiz()">Restart Quiz</button>
         </div>
     </div>
 </div>

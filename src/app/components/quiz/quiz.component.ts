@@ -14,7 +14,7 @@ export class QuizComponent {
     questionSelected: any;
     answers: string[] = [];
     answerSelected: string = '';
-    answerDescription: string = '';
+    answerImage : string = '';
     questionIndex: number = 0;
     questionMaxIndex: number = 0;
     finished: boolean = false;
@@ -45,7 +45,8 @@ export class QuizComponent {
         } else {
           const finalAnswer:string = await this.checkAnswer(this.answers);
           this.finished = true;
-          this.answerSelected = questions.results[finalAnswer as keyof typeof questions.results].title;
+          this.answerSelected = questions.results[finalAnswer as keyof typeof questions.results].resultTitle;
+          this.answerImage = questions.results[finalAnswer as keyof typeof questions.results].resultImage;
         }
       }
 
@@ -60,6 +61,13 @@ export class QuizComponent {
          })
 
          return result;
+      }
+
+      restartQuiz() {
+        this.answers = [];
+        this.finished = false;
+        this.questionIndex = 0;
+        this.questionSelected = this.questions[this.questionIndex];
       }
 
       

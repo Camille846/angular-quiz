@@ -1,3 +1,9 @@
-<div class="container">
-    <app-quiz />
+<div class="container"
+     *ngIf=!finished
+>
+    <h1 class="text-center">Choose a quiz</h1>
+
+    <button class="startBtn">
+        <a [routerLink]="['/quiz']" (click)="startQuiz()">Start Quiz</a>
+    </button>
 </div>

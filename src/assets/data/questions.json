@@ -1,144 +1,445 @@
 {
-    "title": "Are you an introvert or an extrovert?",
+    "title": "Which Steven Universe Character Are You?",
     "questions": [
-        {
-            "id": 1,
-            "question": "When you are at a party, do you:",
-            "answers": [
-                {
-                    "id": 1,
-                    "answer": "Talk to many people, including strangers",
-                    "alias": "E"
-                },
-                {
-                    "id": 2,
-                    "answer": "Talk to a few people you know well",
-                    "alias": "I"
-                },
-                {
-                    "id": 3,
-                    "answer": "Talk to one person you know well",
-                    "alias": "I"
-                },
-                {
-                    "id": 4,
-                    "answer": "Talk to no one",
-                    "alias": "I"
-                }
-            ]
-        },
+      {
+        "id": 1,
+        "question": "Which of the following is your favorite color?",
+        "answers": [
+            {
+                "answer": "Pink",
+                "alias": "A"
+            },
+            {
+                "answer": "Black",
+                "alias": "B"
+            },
+            {
+                "answer": "Purple",
+                "alias": "C"
+            },
+            {
+                "answer": "White",
+                "alias": "D"
+            },
+            {
+                "answer": "Green",
+                "alias": "E"
+            },
+            {
+                "answer": "Blue",
+                "alias": "F"
+            },
+            {
+                "answer": "Yellow",
+                "alias": "G"
+            }
+        ]
+      },
         {
             "id": 2,
-            "question": "It’s Friday night—woohoo! What are your weekend plans?",
+            "question": "What is your favorite food?",
             "answers": [
                 {
-                    "id": 1,
-                    "answer": "Hitting the town with friends",
+                    "answer": "Cookie Cat",
+                    "alias": "A"
+                },
+                {
+                    "answer": "Fry Bits",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Pizza",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Pie",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Chaaaaps",
                     "alias": "E"
                 },
                 {
-                    "id": 2,
-                    "answer": "Catching up on Netflix",
-                    "alias": "I"
+                    "answer": "Watermelon",
+                    "alias": "F"
                 },
                 {
-                    "id": 3,
-                    "answer": "Dinner with a friend",
-                    "alias": "I"
-                },
-                {
-                    "id": 4,
-                    "answer": "I'm not sure yet",
-                    "alias": "I"
+                    "answer": "Donuts",
+                    "alias": "G"
                 }
             ]
         },
         {
             "id": 3,
-            "question": "You like it best when people:",
+            "question": "What is your favorite activity?",
             "answers": [
                 {
-                    "id": 1,
-                    "answer": "Text. I like not feeling rushed to reply.",
-                    "alias": "I"
+                    "answer": "Playing with friends",
+                    "alias": "A"
                 },
                 {
-                    "id": 2,
-                    "answer": "Call. I like to hear their voice.",
+                    "answer": "Fighting",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Sleeping",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Reading",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Learning",
                     "alias": "E"
                 },
                 {
-                    "id": 3,
-                    "answer": "Email. I like to think before I respond.",
-                    "alias": "I"
+                    "answer": "Flying",
+                    "alias": "F"
                 },
                 {
-                    "id": 4,
-                    "answer": "FaceTime. I like to see their face.",
-                    "alias": "E"
+                    "answer": "Studying",
+                    "alias": "G"
                 }
             ]
         },
         {
             "id": 4,
-            "question": "When you’re feeling down, you:",
+            "question": "What is your favorite juice?",
             "answers": [
                 {
-                    "id": 1,
-                    "answer": "Call a friend",
+                    "answer": "Apple",
+                    "alias": "A"
+                },
+                {
+                    "answer": "Blueberry",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Grape",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Pear",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Lemon",
                     "alias": "E"
                 },
                 {
-                    "id": 2,
-                    "answer": "Spend time alone",
-                    "alias": "I"
+                    "answer": "Watermelon",
+                    "alias": "F"
                 },
                 {
-                    "id": 3,
-                    "answer": "Text a friend",
-                    "alias": "I"
-                },
-                {
-                    "id": 4,
-                    "answer": "Email a friend",
-                    "alias": "I"
+                    "answer": "Orange",
+                    "alias": "G"
                 }
             ]
         },
         {
             "id": 5,
-            "question": "When you’re at a party, you:",
+            "question": "What is your favorite weapon?",
             "answers": [
                 {
-                    "id": 1,
-                    "answer": "Are the life of the party",
+                    "answer": "Shield",
+                    "alias": "A"
+                },
+                {
+                    "answer": "Gauntlets",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Whip",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Spear",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Robonoids",
                     "alias": "E"
                 },
                 {
-                    "id": 2,
-                    "answer": "Are the person who’s talking to the life of the party",
-                    "alias": "I"
+                    "answer": "Water",
+                    "alias": "F"
                 },
                 {
-                    "id": 3,
-                    "answer": "Are the person who’s talking to the person who’s talking to the life of the party",
-                    "alias": "I"
+                    "answer": "Sword",
+                    "alias": "G"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "What is your favorite place?",
+            "answers": [
+                {
+                    "answer": "Beach",
+                    "alias": "A"
                 },
                 {
-                    "id": 4,
-                    "answer": "Are the person who’s talking to the person who’s talking to the person who’s talking to the life of the party",
-                    "alias": "I"
+                    "answer": "Cave",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Kindergarten",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Temple",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Barn",
+                    "alias": "E"
+                },
+                {
+                    "answer": "Sea",
+                    "alias": "F"
+                },
+                {
+                    "answer": "School",
+                    "alias": "G"
+                }
+            ]           
+        },
+        {
+            "id": 7,
+            "question": "When you are in trouble, what do you do?",
+            "answers": [
+                {
+                    "answer": "Cry",
+                    "alias": "A"
+                },
+                {
+                    "answer": "Fight",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Run",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Think",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Hide",
+                    "alias": "E"
+                },
+                {
+                    "answer": "Fly",
+                    "alias": "F"
+                },
+                {
+                    "answer": "Study",
+                    "alias": "G"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "When you need to finish a task, what do you do?",
+            "answers": [
+                {
+                    "answer": "Ask for help",
+                    "alias": "A"
+                },
+                {
+                    "answer": "Do it yourself",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Procrastinate",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Overthink",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Get distracted",
+                    "alias": "E"
+                },
+                {
+                    "answer": "Get bored",
+                    "alias": "F"
+                },
+                {
+                    "answer": "Get tired",
+                    "alias": "G"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Pick a positive word that best describes you.",
+            "answers": [
+                {
+                    "answer": "Loving",
+                    "alias": "A"
+                },
+                {
+                    "answer": "Strong",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Funny",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Smart",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Curious",
+                    "alias": "E"
+                },
+                {
+                    "answer": "Mysterious",
+                    "alias": "F"
+                },
+                {
+                    "answer": "Brave",
+                    "alias": "G"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Pick a negative word that best describes you.",
+            "answers": [
+                {
+                    "answer": "Insecure",
+                    "alias": "A"
+                },
+                {
+                    "answer": "Angry",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Lazy",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Obsessive",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Rebellious",
+                    "alias": "E"
+                },
+                {
+                    "answer": "Depressed",
+                    "alias": "F"
+                },
+                {
+                    "answer": "Anxious",
+                    "alias": "G"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "question": "What is your favorite type of weather?",
+            "answers": [
+                {
+                    "answer": "Sunny",
+                    "alias": "A"
+                },
+                {
+                    "answer": "Stormy",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Cloudy",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Foggy",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Windy",
+                    "alias": "E"
+                },
+                {
+                    "answer": "Rainy",
+                    "alias": "F"
+                },
+                {
+                    "answer": "Snowy",
+                    "alias": "G"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Pick a superpower.",
+            "answers": [
+                {
+                    "answer": "Healing",
+                    "alias": "A"
+                },
+                {
+                    "answer": "Strength",
+                    "alias": "B"
+                },
+                {
+                    "answer": "Shapeshifting",
+                    "alias": "C"
+                },
+                {
+                    "answer": "Hologram",
+                    "alias": "D"
+                },
+                {
+                    "answer": "Metal control",
+                    "alias": "E"
+                },
+                {
+                    "answer": "Water control",
+                    "alias": "F"
+                },
+                {
+                    "answer": "Teleportation",
+                    "alias": "G"
                 }
             ]
         }
     ],
+
     "results": {
-        "E": {
-            "title": "Extrovert"       
+        "A":{ 
+            "resultTitle": "Steven Universe!",
+            "resultImage": "https://assets.teenvogue.com/photos/5da4a5ffa554aa00097346a6/4:3/w_1080,h_810,c_limit/Ent_Steven-Universe_PROMO.jpg"
         },
-        "I": {
-            "title": "Introvert"
+        "B": {
+            "resultTitle": "Garnet!",
+            "resultImage": "https://quilombogeek.files.wordpress.com/2023/08/736047.png?w=1920&h=768&crop=1"
+        },
+        "C": {
+            "resultTitle": "Amethyst!",
+            "resultImage": "https://i1.sndcdn.com/artworks-dycvpozfdiW5GtPZ-qo9fdA-t500x500.jpg"
+        },
+        "D": {
+            "resultTitle": "Pearl!",
+            "resultImage": "https://pm1.aminoapps.com/6199/cbde19fad6c305609263d13d109df80d22e2f5ae_hq.jpg"
+        },
+        "E": {
+            "resultTitle": "Peridot!",
+            "resultImage": "https://i1.sndcdn.com/artworks-000286883423-wc1x6s-t500x500.jpg"
+        },
+        "F": {
+            "resultTitle": "Lapis Lazuli!",
+            "resultImage": "https://i.pinimg.com/564x/69/b8/df/69b8df473a6d55465b7236278ecfa06a.jpg"
+        },
+        "G": {
+            "resultTitle": "Connie!",
+            "resultImage": "https://pm1.aminoapps.com/7519/85a02c28abe63fa2657b7c45aa2089bc2b6cbadfr1-500-500v2_00.jpg"
         }
     }
-
 }
+  
